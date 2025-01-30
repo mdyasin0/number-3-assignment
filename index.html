@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browse pet</title>
+    <!-- fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- tailwind css cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- style-->
+    <style>
+        .adlam-display-regular {
+            font-family: "ADLaM Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+            .sora {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            }
+     </style>
+</head>
+<body>
+    <div class="bg-[#FFF9F4] border-b-2 border-gray-400 sm:border-b-0">
+        <nav class="flex w-10/12 justify-between mx-auto items-center py-3 ">
+            <div class="flex gap-1 items-center">
+                <img src="c1-assets/logo-header.png" alt="">
+                <h1 class="text-2xl font-medium hidden sm:block">Browse Pets</h1>
+            </div>
+            <div>
+                <ul class="flex gap-4 text-sm font-medium ">
+                    <li class="hidden sm:block"><a href="#">Find-pet</a></li>
+                    <li class="hidden sm:block"><a href="#">Breeds</a></li>
+                    <li class="hidden sm:block"><a href="#">Contact us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="flex items-center gap-4 ">
+                <div class="hidden sm:block" ><i class=" fa-regular fa-bell "></i></div>
+               <div class="hidden sm:block" > <i class=" fa-solid fa-magnifying-glass "></i></div>
+                <button class="text-lg font-medium rounded-md py-1 px-3 border border-yellow-500 hidden sm:block">login</button>
+                <button class="text-lg font-medium rounded-md  bg-yellow-400 py-1 px-3 border border-yellow-500 hidden sm:block">Register</button>
+                <div class="sm:hidden"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </nav>
+    </div>
+    
+</body>
+</html>
